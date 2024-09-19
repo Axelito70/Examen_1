@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to bottom, #c72929, #d02525, #d92020, #e21a1a, #eb1212);
+}
+
+button {
+    background-image: radial-gradient(circle, #dff403, #edc600, #f29500, #ef5f00, #e30101);
+}
+
+.c-user {
+    font-size: 100px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-control {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.form-control:focus {
+    color: white;
+    border: none;
+    border-bottom: solid white 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: rgb(197, 193, 193);
+}
+
+.c-input {
+    background-color: #131484;
+}
